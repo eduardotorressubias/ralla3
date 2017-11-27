@@ -29,5 +29,15 @@ public class juego {
         System.out.println(" -------------\n | " + tablero[0][0] + " | " + tablero[0][1] + " | " + tablero[0][2] + " | \n -------------");
         System.out.println(" | " + tablero[1][0] + " | " + tablero[1][1] + " | " + tablero[1][2] + " | \n -------------");
         System.out.println(" | " + tablero[2][0] + " | " + tablero[2][1] + " | " + tablero[2][2] + " | \n -------------");
+        
+        System.out.println("Jugador 1 seleccione la fila: ");
+        i = Integer.parseInt(br.readLine());
+        System.out.println("Jugador 1 seleccione la columna: ");
+        j = Integer.parseInt(br.readLine());
+        
+        tablero[i][j]=jugador1;
+        System.out.println(" -------------\n | " + tablero[0][0] + " | " + tablero[0][1] + " | " + tablero[0][2] + " | \n -------------");
+        System.out.println(" | " + tablero[1][0] + " | " + tablero[1][1] + " | " + tablero[1][2] + " | \n -------------");
+        System.out.println(" | " + tablero[2][0] + " | " + tablero[2][1] + " | " + tablero[2][2] + " | \n -------------");
     }
 }
