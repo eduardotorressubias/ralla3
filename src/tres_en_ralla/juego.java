@@ -12,4 +12,13 @@ import java.util.logging.Logger;
  */
 public class juego {
 
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        char tablero[][] = new char[3][3];
+        char jugador1 = 'X';
+        char jugador2 = 'O';
+        int i = 0;
+        int j = 0;
+     
+    }
 }
